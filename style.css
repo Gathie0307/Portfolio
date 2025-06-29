@@ -408,6 +408,11 @@ nav {
   align-items: center;
   transform: translateX(-50%);
 }
+.work-section-projects-work-background-square:hover {
+  background-color: #f3f4f6;
+  bottom: 1.7rem;
+  transition-duration: 500ms;
+}
 
 .send-icon {
     margin-left: 50px;
@@ -429,8 +434,8 @@ nav {
 }
 
 .send-icon:hover {
-  background-color: lightseagreen;
-
+  background-color: rgba(190, 242, 100, 0.5);
+  cursor: pointer;
 }
 
 .show-more-button {
